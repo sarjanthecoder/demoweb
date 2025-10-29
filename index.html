@@ -562,25 +562,205 @@
         }
 
         /* Responsive */
-        @media (max-width: 768px) {
+        @media (max-width: 1200px) {
             .hero h1 {
-                font-size: 3.5rem;
+                font-size: 5rem;
             }
             .hero-subtitle {
-                font-size: 1.3rem;
+                font-size: 1.7rem;
+            }
+            .features-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 4rem;
+            }
+            .hero-subtitle {
+                font-size: 1.5rem;
+            }
+            .section-title {
+                font-size: 3rem;
+            }
+            .cta-section h2 {
+                font-size: 3.5rem;
+            }
+            .features-grid {
+                gap: 2rem;
+            }
+            .feature-card {
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 1rem;
+                min-height: 90vh;
+            }
+            .hero h1 {
+                font-size: 3rem;
+                line-height: 1.1;
+            }
+            .hero-subtitle {
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+            }
+            .hero-badge {
+                font-size: 0.85rem;
+                padding: 0.4rem 1rem;
+                margin-bottom: 1.5rem;
             }
             .section-title {
                 font-size: 2.5rem;
             }
+            .section-subtitle {
+                font-size: 1.1rem;
+                padding: 0 1rem;
+            }
             .cta-section h2 {
                 font-size: 2.5rem;
+                line-height: 1.2;
+            }
+            .cta-section p {
+                font-size: 1.2rem;
+                padding: 0 1rem;
             }
             .hero-buttons {
                 flex-direction: column;
                 align-items: center;
+                gap: 1rem;
+            }
+            .cta-primary, .cta-secondary {
+                padding: 1.2rem 2.5rem;
+                font-size: 1.2rem;
+                width: 100%;
+                max-width: 300px;
             }
             .nav-container {
                 padding: 1rem 1.5rem;
+            }
+            .logo {
+                font-size: 2rem;
+            }
+            .nav-btn {
+                padding: 0.6rem 1.5rem;
+                font-size: 1rem;
+            }
+            .features {
+                padding: 4rem 1rem;
+            }
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .feature-card {
+                padding: 2rem 1.5rem;
+            }
+            .feature-icon {
+                font-size: 4rem;
+            }
+            .feature-title {
+                font-size: 1.5rem;
+            }
+            .feature-desc {
+                font-size: 1rem;
+            }
+            .stats {
+                padding: 4rem 1rem;
+            }
+            .stats-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+            .stat-number {
+                font-size: 3rem;
+            }
+            .stat-label {
+                font-size: 1rem;
+            }
+            .cta-section {
+                padding: 6rem 1rem;
+            }
+            .scroll-indicator {
+                font-size: 2rem;
+                bottom: 2rem;
+            }
+            .orb1, .orb2, .orb3 {
+                width: 300px;
+                height: 300px;
+            }
+            .social-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+            .hero-badge {
+                font-size: 0.75rem;
+                padding: 0.3rem 0.8rem;
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+            .section-subtitle {
+                font-size: 1rem;
+            }
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+            .cta-section p {
+                font-size: 1rem;
+            }
+            .cta-primary, .cta-secondary {
+                padding: 1rem 2rem;
+                font-size: 1rem;
+            }
+            .logo {
+                font-size: 1.5rem;
+            }
+            .nav-btn {
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+            }
+            .feature-icon {
+                font-size: 3rem;
+            }
+            .feature-title {
+                font-size: 1.3rem;
+            }
+            .stats-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .stat-number {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero-subtitle {
+                font-size: 0.9rem;
+            }
+            .nav-container {
+                padding: 0.8rem 1rem;
+            }
+            .cta-primary, .cta-secondary {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
             }
         }
 
@@ -611,7 +791,7 @@
     <nav>
         <div class="nav-container">
             <div class="logo">💑 LoveCart</div>
-            <a href="main.html" class="nav-btn">Enter Store 🛍️</a>
+            <a href="#" class="nav-btn">Enter Store 🛍️</a>
         </div>
     </nav>
 
@@ -621,7 +801,7 @@
             <h1>Shop Together,<br>Love Forever</h1>
             <p class="hero-subtitle">Discover the most romantic gifts for couples, crafted with love and delivered with care 💖</p>
             <div class="hero-buttons">
-                <a href="main.html" class="cta-primary">🛍️ Start Shopping</a>
+                <a href="#" class="cta-primary">🛍️ Start Shopping</a>
                 <a href="#features" class="cta-secondary">✨ Explore More</a>
             </div>
         </div>
@@ -698,7 +878,7 @@
         <div class="cta-content">
             <h2>Ready to Find Your Perfect Gift?</h2>
             <p>Join thousands of couples who trust LoveCart for their special moments 💖</p>
-            <a href="main.html" class="cta-primary">🛍️ Shop Now</a>
+            <a href="#" class="cta-primary">🛍️ Shop Now</a>
         </div>
     </section>
 
