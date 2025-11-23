@@ -117,7 +117,7 @@ Special badge (Hot/New/Sale/Best)
 Adding to Cart
 
 Add to Cart - Click "Add to Cart 💖" button
-Buy Now - Click "Buy Now 🛍️" for instant checkout
+Buy Now - Click "Buy Now 🛍️" for instant checkoutt
 View Cart - Click cart icon (🛒) in navigation
 
 Checkout Process
