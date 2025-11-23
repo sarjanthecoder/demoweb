@@ -3,6 +3,7 @@ A stunning, love-themed e-commerce platform designed for couples to shop togethe
 
 ✨ Features
 🎨 Visual Effects
+s
 
 Golden Yellow Butterfly Cursor - Custom animated cursor that follows mouse movement
 Floating Butterflies & Hearts - 30+ animated elements floating across the screen
