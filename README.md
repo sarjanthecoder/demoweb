@@ -444,7 +444,7 @@ Performance optimization
 
 🚀 Quick Start Commands
 bash# Open Landing Page
-open lovecart_landing_page.html
+open lovecart_landing_page.htmll
 
 # Open Main Store
 open lovecart_category_site.html
